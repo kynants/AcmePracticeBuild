@@ -1,0 +1,72 @@
+body {
+  font: 15px/1.5 Ariel, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+body header {
+  position: static;
+  top: 0;
+  background-color: #35424a;
+  min-width: 100%;
+}
+
+body header h2 {
+  position: relative;
+  top: 1.9rem;
+  left: 5rem;
+  margin-top: 0;
+  color: white;
+  font-size: 1.9rem !important;
+}
+
+body header h2 span {
+  color: #e8491d;
+}
+
+body header ul {
+  position: relative;
+  bottom: 1.5rem;
+  right: -70%;
+  height: initial;
+  line-height: initial;
+  white-space: nowrap;
+}
+
+body header ul li {
+  position: relative;
+  right: 10rem;
+  display: inline;
+  padding: 0 20px 0 20px;
+  text-transform: uppercase;
+  font-size: 1.05rem;
+}
+
+body header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+body header div {
+  border-top: 4px solid #e8491d;
+}
+
+body #showcase {
+  background-image: url("showcase.jpg");
+  color: white;
+  text-align: center;
+}
+
+body #showcase h1 {
+  font-size: 3.4rem;
+  padding: 6rem 5rem 0 5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+body #showcase blockquote {
+  font-size: 1.2rem;
+  padding: 0.3rem 3.5rem 3rem 3.5rem;
+}
+/*# sourceMappingURL=style.css.map */
