@@ -2,75 +2,103 @@
 $darkSlateBlue: #35424a;
 $brightRed: #e8491d;
 
-body {
-  // font-family: Arial, Helvetica, sans-serif;
-  // // font-size: 15px;
-  // line-height: 1.5;
-  font: 15px/1.5 Ariel, Helvetica, sans-serif;
-  padding: 0;
-  margin: 0;
-  background-color: #f4f4f4;
-  header {
-    position: static;
-    top: 0;
-    background-color: $darkSlateBlue;
-    min-width: 100%;
-      h2 {
-        position: relative;
-        top: 1.9rem;
-        left: 5rem;
-        margin-top: 0;
-        color: white;
-        font-size: 1.9rem !important;
-        span {
-          color: $brightRed;
-        }
-      }
-      ul {
-        position: relative;
-        bottom: 1.5rem;
-        right: -70%;
-        height: initial;
-        line-height: initial;
-        white-space: nowrap;
-        li {
+html {
+  overflow-x: hidden;
+  body {
+    // font-family: Arial, Helvetica, sans-serif;
+    // // font-size: 15px;
+    // line-height: 1.5;
+    font: 15px/1.5 Ariel, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    header {
+      position: static;
+      top: 0;
+      background-color: $darkSlateBlue;
+      min-width: 100%;
+        h2 {
           position: relative;
-          right: 10rem;
-          display: inline;
-          padding: 0 20px 0 20px;
-          text-transform: uppercase;
-          font-size: 1.05rem;
-          a {
-            text-decoration: none;
-            color: white;
+          top: 1.9rem;
+          left: 5rem;
+          margin-top: 0;
+          color: white;
+          font-size: 1.9rem !important;
+          span {
+            color: $brightRed;
           }
         }
+        ul {
+          position: relative;
+          bottom: 1.5rem;
+          right: -70%;
+          height: initial;
+          line-height: initial;
+          white-space: nowrap;
+          li {
+            position: relative;
+            right: 10rem;
+            display: inline;
+            padding: 0 20px 0 20px;
+            text-transform: uppercase;
+            font-size: 1.05rem;
+            a {
+              text-decoration: none;
+              color: white;
+            }
+          }
+        }
+      div {
+        border-top: 4px solid $brightRed;
       }
-    div {
-      border-top: 4px solid $brightRed;
     }
-  }
-  #showcase {
-    background-image: url("showcase.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    color: white;
-    text-align: center;
-    h1 {
-      font-size: 3.4rem;
-      padding: 6rem 5rem 0 5rem;
-      margin-top: 0;
-      margin-bottom: 0.5rem;
+    #showcase {
+      background-image: url("showcase.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center; 
+      color: white;
+      text-align: center;
+      h1 {
+        font-size: 3.4rem;
+        padding: 6rem 5rem 0 5rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+      }
+      blockquote {
+        font-size: 1.2rem;
+        padding: 0.3rem 3.5rem 3rem 3.5rem;
+      }
     }
-    blockquote {
-      font-size: 1.2rem;
-      padding: 0.3rem 3.5rem 3rem 3.5rem;
+    #newsletter {
+      background-color: $darkSlateBlue !important;
+      display: inline-block;
+      color: white;
+      width: 100%;
+      margin-top: -1.8%;
+      h3 {
+        margin-top: 0;
+        position: relative;
+        left: 10%;
+        bottom: -2rem;
+        font-size: 1.4rem;
+      }
+      form {
+        position: relative;
+        right: -60%;
+        top: -1.5rem;
+        input[type=text], select {
+          width: 15rem;
+          height: 3em;
+        } 
+        input[type=submit] {
+          background-color: $brightRed;
+          color: white;
+          width: 6rem;
+          height: 2.5rem;
+          border-style: none;
+        }
+      }
     }
-  }
-  #subscribe {
-    background-color: $darkSlateBlue;
-    display: inline;
-    color: white;
   }
 }
