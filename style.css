@@ -111,4 +111,33 @@ html body #newsletter form input[type=submit] {
   height: 2.5rem;
   border-style: none;
 }
+
+html body #service-types {
+  text-align: center;
+}
+
+html body #service-types div {
+  display: inline-block;
+  width: 20rem;
+  padding: 2rem 0 1rem 0;
+}
+
+html body #service-types div .service-icons {
+  width: 28%;
+}
+
+html body #service-types div h6 {
+  font-size: 1rem;
+}
+
+html body footer {
+  text-align: center;
+  background-color: #e8491d;
+  color: white;
+  height: 7rem;
+}
+
+html body footer p {
+  padding-top: 2.7rem;
+}
 /*# sourceMappingURL=style.css.map */

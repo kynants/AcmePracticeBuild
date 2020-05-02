@@ -100,5 +100,30 @@ html {
         }
       }
     }
+    #service-types {
+      text-align: center;
+      div {
+        display: inline-block;
+        // float: left;
+        width: 20rem;
+        padding: 2rem 0 1rem 0;
+        .service-icons {
+          width: 28%;
+
+        }
+        h6 {
+          font-size: 1rem;
+        }
+      }
+    }
+    footer {
+      text-align: center;
+      background-color: $brightRed;
+      color: white;
+      height: 7rem;
+      p {
+        padding-top: 2.7rem;
+      }
+    }
   }
 }
